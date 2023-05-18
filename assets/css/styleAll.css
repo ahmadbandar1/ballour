@@ -1,0 +1,2143 @@
+:root{
+    --mainColor:  #212121;
+    --blueColor:   #01529A;
+    --residentialColor:  #505050;
+    --secanderColor: #999999;
+    --whiteColor: #FFFFFF;
+    --whiteHafeColor: #f4f4f4;
+    --borderColor: #E1E1E1;
+    --btnBorderColor: #e2e2e2;
+    --SomeBgColor:  #CCCCCC;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.d-abs i{
+    color: #212121;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.zzz{
+    position:fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    /* max-width: 100%; */
+    max-height: 100%;
+    z-index: 99999999;
+    transition: all 1s;
+    background-color: #FFFFFF;
+    display: block!important;
+    overflow:auto!important;
+}
+
+
+/* @media (max-width: 600px) {
+ .xcv{
+    position: fixed;
+    top: 130px;
+    bottom: 0;
+    min-height: 100%!important;
+}
+.xcv .dir-rtl{
+    height: 100%;
+}
+.cc{
+    overflow: hidden;
+}
+} */
+.accordion {
+    --bs-accordion-btn-active-icon: url("../image/ar.svg");
+}
+.accordion-button:not(.collapsed) {
+    background-color:var(--blueColor)!important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-active-icon)!important;
+}
+
+input,select{
+    padding: 8px!important;
+}
+label img{
+    padding-top: 8px;
+    padding-bottom: 8px;;
+}
+input[type="range"]{
+    padding: 0px!important;
+}
+.field input{
+    padding: 0px!important;
+}
+.modelProductBoutns input{
+    padding: 0px!important;
+}
+.focas select:focus{
+    color: black;
+}
+
+a:hover{
+    color: var(--blueColor)!important;
+ }
+ .accordion-button{
+    width: 30px!important;
+    padding:10px 5px!important;
+}
+.gh{
+    height: 100px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.TopImg{
+    width: 20px;
+}
+.cursor{
+    cursor: pointer;
+}
+/* header */
+.wi{
+    width: max-content;
+}
+.border-btm{
+    border-bottom: 1px solid var(--borderColor);
+}
+.header1{
+    background-color:  var(--mainColor);
+}
+.imgBoxHit{
+    height: 350px;
+}
+.header1-head{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color:  var(--whiteColor);
+}
+.header1-btnSingin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    height: 50px;
+    background:  var(--whiteColor);
+   border: 1px solid  var(--whiteColor);
+    border-radius: 4px;
+    text-decoration: none;
+    color:  var(--mainColor);
+}
+.header1-btnSingin:hover{
+    background-color:  var(--mainColor);
+    color:  var(--whiteColor)!important;
+    border: 1px solid  var(--whiteColor);
+
+}
+.header1-btncreat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background:  var(--mainColor);
+    height: 50px;
+    padding: 10px 30px;
+    border: 1px solid  var(--whiteColor);
+    border-radius: 4px;
+    text-decoration: none;
+}
+.header1-btncreat:hover{
+    background:  var(--whiteColor);
+    color:black!important;
+}
+.header1-btncreat:hover a{
+    background:  var(--whiteColor);
+    color:black!important;
+}
+.header1-btncreat:hover img{
+    filter: invert(0%) sepia(1%) saturate(743100%) hue-rotate(347deg) brightness(40%) contrast(960%);
+}
+.header1-btnSinginText{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 30px; */
+    text-align: center;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+.header1-btncreatText{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 30px; */
+    text-align: center;
+    text-transform: capitalize;
+    color:  var(--whiteColor);
+}
+.modelButn{
+    background-color:  var(--blueColor);
+    color:  var(--whiteColor);
+    border: 2px solid  var(--blueColor);
+    padding: 6px;
+    border-radius: 6px;
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.modelButn:hover{
+    border: 2px solid  var(--blueColor);
+    color:  var(--blueColor);
+    background-color:  var(--whiteColor);
+    
+}
+.modelText{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    /* font-weight: 500; */
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+}
+.modelTextBtn{
+    all: unset;
+    width: 50%;
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+    border:1px solid  var(--blueColor);
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+.modelTextBtn:hover{
+    background-color: var(--blueColor);
+    color: var(--whiteColor);
+}
+
+@media (max-width: 600px) {
+    .header1-head{
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .mob{
+        width: 25px;
+    }
+    .header1-btnSingin{
+        padding: 5px 5px;
+        height: 30px;
+    }
+
+    .header1-btncreat{
+        height: 30px;
+        padding: 5px 5px;
+    }
+    .header1-btnSinginText{
+        font-size: 10px;
+    }
+    .header1-btncreatText{
+        font-size: 10px;
+    }
+
+    .modelTextBtn{
+        
+        font-size: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: capitalize;
+        color:  var(--mainColor);
+        border:1px solid  var(--blueColor);
+        border-radius: 4px;
+        padding: 5px 5px;
+        background-color: transparent;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .header1-btnSinginText{
+        font-size: 13px;
+    }
+    .header1-btncreatText{
+        font-size: 13px;
+    }
+}
+.header2{
+    background-color: #f4f4fd;
+}
+.logoTr{
+width: 70px;
+height: 70px;
+}
+
+.header2-text{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 27px; */
+    text-align: center;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+.lange{
+    width: 27px;
+}
+.accordion-button:not(.collapsed) {
+    color:var(--blueColor)!important;
+    /* background-color: ; */
+    box-shadow: unset;
+}
+.accordion-button:focus {
+    border-color: var(--blueColor);
+    outline: 0;
+    box-shadow: unset;
+}
+
+.accordion-button {
+    padding: var(--bs-accordion-btn-padding-y) 5px;
+}
+
+/* cild */
+.accordion-body {
+    padding:  0px 16px!important;
+
+}
+/* end header */
+/* section 1 */
+.listSidecontainer:hover .listSide{
+    display: block;
+    transition: all 1s;
+
+}
+.listSide{
+    position: absolute;
+    left: 25%;
+    display: none;
+    background-color:  var(--whiteColor);
+    z-index: 9999999999;
+    width: 76%;
+    height: 350px;
+    top: 0;
+    transition: all 1s;
+    border: 1px solid var(--borderColor);
+    border-radius: 5px
+}
+@media (max-width: 575.98px) {
+    .listSide{
+        height: auto;
+        width: auto;   
+    }
+ 
+}
+.section1{
+    background-color:  #f4f4fd;
+}
+.section1 a{
+    text-decoration: none;
+}
+
+.section1 .sidbartext,.section1 .sidbartext1{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+    text-decoration: none;
+}
+.section1 .sidbartext:hover,.section1 .sidbartext:hover,.section1 .sidbartext1:hover{
+    color: var(--blueColor);
+}
+.section1 .slidContent{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    color:  var(--residentialColor);
+}
+.section1 .slidContent:hover{
+    color: var(--blueColor);
+}
+.listSidecontainer:hover .slideImg{
+    filter: invert(17%) sepia(98%) saturate(2100%) hue-rotate(192deg) brightness(97%) contrast(103%);
+}
+.listSidecontainer:hover .sidbartext1{
+    color: var(--blueColor);
+}
+.border-around{
+    background-color:  var(--whiteColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 5px
+}
+.slider{
+    height: 350px;
+    background-color:  var(--blueColor);
+    border-radius: 4px
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+.para{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    /* line-height: 47px; */
+    display: flex;
+    align-items: center;
+    /* text-align: right; */
+    text-transform: capitalize;
+    color:  var(--whiteColor);
+}
+.paraSm{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color:  var(--whiteColor);
+}
+.butn{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color:  var(--whiteColor);
+}
+
+.border{
+    border: 1px solid  var(--whiteColor);
+    border-radius: 4px;
+    padding: 15px 30px;
+}
+.SlHov:hover{
+    background-color: var(--whiteColor);
+}
+.SlHov:hover a{
+    color:black;
+}
+.SlHov:hover img{
+    filter: invert(98%) sepia(91%) saturate(373%) hue-rotate(215deg) brightness(121%) contrast(100%);
+}
+@media (max-width: 575.98px) {
+    .para{
+        font-size: 13px;
+    }
+    .paraSm{
+        font-size: 10px;
+    }
+    .border{
+        padding: 5px 10px;
+    }
+    .butn{
+    width: 100%;
+    font-size: 8px;
+    padding: 0px;
+    }
+    .height{
+        height: auto;
+    }
+}
+/* end section 1 */
+
+
+/* Special Offers */
+.SpecialOffers1{
+    background-color: #e8ecf0;
+}
+.SpecialOffersSize{
+    width: 180px;
+    height: 180px;    
+}
+.SpecialOffersImg{
+    width: 100%;
+    height: 100%;
+}
+.SpecialOffers .head{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+    
+}
+.borderBottom{
+    border-bottom:1px solid var(--SomeBgColor);
+}
+@media (max-width: 575.98px) {
+    .SpecialOffers .head{
+        font-size: 18px;
+    }
+    .SpecialOffersSize{
+        width: auto;
+    }
+  
+}
+.slide-icon{
+    background: var(--secanderColor);
+    border-radius: 40px;
+    padding: 10px;
+    transition: all 1s ease;
+}
+ .slide-icon:hover{
+    background-color: var(--blueColor);
+}
+
+.img-box {
+    /* padding: 35px 35px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+}
+.box-img{
+    max-width: 100%;
+    /* max-height: 270px; */
+}
+.slide-number{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+ .slide-numberSpan{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration-line: line-through;
+    color:  var(--residentialColor);
+}
+.slide-text{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* text-align: center; */
+    text-transform: capitalize;
+    color:  var(--residentialColor);
+}
+
+.thumbnails  {
+    width: 80%;
+    display: flex;
+    margin: 1rem auto 0;
+    padding: 0;
+    justify-content: start;
+}
+
+.thumbnail ,.thumbnailAs {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    list-style: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+    /* opacity: 0.6; */
+    background-color: white;
+}
+.thumbnail.is-active ,.thumbnailAs.is-active{
+    opacity: 1;
+    /* border: 1px solid #000000; */
+}
+.thumbnail img ,.thumbnailAs img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: var(--whiteHafeColor);
+
+}
+
+.modelProductPrice{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+.modelProductHead{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+.inputPLMI{
+    outline: 0px;
+    /* border: 0px; */
+    max-width: 50px;
+    text-align: center;
+}
+
+.modelProductPara{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color:  var(--residentialColor);
+}
+.modelProductBoutns{
+    background: var(--whiteHafeColor);
+    border-radius: 4px;
+    padding: 5px 5px;
+    max-width: 120px;
+   
+}
+.modelProductBoutnPlus{
+    background:  var(--mainColor);
+    border-radius: 4px;
+    border: 1px solid  var(--mainColor);
+}
+.modelProductBoutnMines{
+    background: var(--borderColor);
+    border-radius: 4px;
+    border: 1px solid var(--borderColor);
+}
+.modelProductBoutnAddCard,.ProductBoutnAddCard,.BtnNoHover{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color:  var(--whiteColor);
+    text-decoration: none;
+    background:  var(--blueColor);
+    border: 1px solid  var(--blueColor);
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+.BtnWidth{
+    display: block;
+    width: 250px;
+    margin: auto;
+}
+.ALink{
+    display: block;
+    width: 30%;
+}
+.modelProductBoutnAddCard:hover,.ProductBoutnAddCard:hover{
+    color:  var(--blueColor);
+    background:  var(--whiteColor);
+    border: 1px solid  var(--blueColor);
+}
+.dell{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid  #de2941;
+    border-radius: 4px;
+    padding: 4px 20px;
+}
+.delle{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid  #de2941;
+    border-radius: 4px;
+    padding: 2px 20px;
+    width: fit-content;
+}
+.dell:hover,.delle:hover{
+    background: var(--whiteColor);
+}
+@media (max-width: 575.98px) {
+  .ProductBoutnAddCard{
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  .modelProductBoutnAddCard{
+    font-size: 14px;
+    padding: 10px 20px;
+}
+.ALink{
+    width: 70%;
+}
+.dell{
+    font-size: 12px;
+    padding: 2px 20px;
+}
+.delle{
+    font-size: 12px;
+    padding: 2px 20px;
+    margin: auto;
+}
+
+}
+.modelProductBoutnAddWish{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+    background-color: transparent;
+}
+
+.slide-icon1{
+    background: var(--secanderColor);
+    border-radius: 40px;
+    padding: 6px;
+}
+.slide-icon2{
+    background-color: var(--blueColor); 
+    border-radius: 40px;
+    padding: 6px;
+}
+.imgll{
+    width: 30px;
+}
+.rating .full{
+    filter: invert(24%) sepia(33%) saturate(3340%) hue-rotate(187deg) brightness(96%) contrast(105%); 
+
+}
+
+@media (max-width: 575.98px) {
+    .modelProductBoutnAddWish{
+        font-size: 18px;
+        margin: auto;
+    }
+    .modelProductBoutnAddWish img{
+        width: 20px;
+    }
+}
+
+.modelProductClass{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+.productIconClass{
+    border: 1px solid var(--residentialColor);
+    border-radius: 50%;
+    margin-right:3px ;
+    transition: all 1s ease;
+}
+.productIconClass img{
+    width: 40px;
+    padding: 10px;
+}
+.productIconClass:hover{
+    background-color: var(--blueColor);
+    color: var(--whiteColor)
+}
+.productIconClass:hover img{
+    filter: invert(100%) sepia(8%) saturate(0%) hue-rotate(316deg) brightness(107%) contrast(103%);  
+}
+.hit{
+    height: 40px;
+}
+
+@media (max-width: 575.98px) {
+    .productIconClass img{
+        width: 30px;
+        padding: 5px;
+    }
+    .hit{
+        height: 30px;
+    }
+}
+
+/* end SpecialOffers */
+
+
+/* The Best Offers */
+.TheBestOffers .bgHead{
+    background: rgba(1, 82, 154, 0.05);
+    border-radius: 4px 4px 0px 0px;
+}
+.texthead{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+.TheBestOffers .bgCol{
+    background-color:  var(--blueColor);
+    border-radius: 6px;
+}
+.TheBestOffers .textPara{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color:  var(--whiteColor);
+}
+.TheBestOffersButn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background:  var(--whiteColor);
+    border-radius: 50px;
+    border: 1px solid  var(--whiteColor);
+
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color:  var(--blueColor);
+}
+@media (max-width: 575.98px) {
+    .TheBestOffers .textPara{
+        font-size: 14px;
+    }
+    .TheBestOffersButn{
+        padding: 5px 10px;
+        font-size: 11px;
+
+    }
+}
+/* end The Best Offers */
+
+/* Featured products */
+.FeaturedProductsPara{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color:  var(--residentialColor);
+}
+
+/* end Featured products */
+/*  Main sections*/
+.mainSections .para{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    /* line-height: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+
+.mainSections .border{
+    border-radius: 6px;
+}
+.mainSections .butn{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #4D4848;
+    border: none;
+    background:  var(--whiteColor);
+    padding: 6px;
+
+
+}
+.mainSections .butnYalo{
+    background: #FFCB00;
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #4D4848;
+    border: none;
+    padding: 6px;
+}
+/* end Main sections */
+/* footer */
+footer{
+    background-color:  var(--residentialColor);
+    padding: 40px 0;
+}
+.fotter-title{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    /* line-height: 47px; */
+    display: flex;
+    align-items: center;
+    /* text-align: right; */
+    text-transform: capitalize;
+    color:  var(--whiteColor);
+}
+.fotter-content{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 33px; */
+    display: flex;
+    /* align-items: center; */
+    /* text-align: right; */
+    color:  var(--whiteColor);
+}
+.fotter-download{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    display: flex;
+    color:  var(--whiteColor);
+}
+.fotter-downloadStor,.fotter-downloadStor:hover{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    color:  var(--whiteColor);
+    cursor: pointer;
+}
+.fotter-titleSM{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 38px; */
+    /* text-align: right; */
+    text-transform: capitalize;
+    color:  var(--whiteColor);
+}
+.fotter-Subscribe{
+    border: none ;
+    outline: none;
+    background-color: transparent!important;
+}
+
+.fotter-Subscribe-text{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 27px; */
+    /* text-align: right; */
+    text-transform: capitalize;
+    color:  var(--secanderColor);
+}
+.fotter-Subscribe-btn{
+    padding: 7px 20px;
+    background:  var(--whiteColor);
+    border-color:  transparent;
+    transition: all 1s ease-in-out;
+}
+.fotter-Subscribe-btn:hover{
+    background-color: var(--blueColor);
+    /* border-color:  var(--blueColor); */
+    color: white;
+}
+.fotter-Subscribe-btnText{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 30px; */
+    text-align: center;
+    text-transform: capitalize;
+    color:  var(--blueColor);
+}
+.heightBtnFooter{
+    height: 45px;
+}
+.fotter-socilIcon{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right:3px ;
+    transition: all 1s ease;
+}
+.fotter-socilIcon:hover{
+    background-color: var(--blueColor);
+}
+.fotter-socilIconImg{
+    width: 40px;
+    padding: 10px;
+}
+
+.fotter-storepox{
+    border: 1px solid black;
+    padding: 10px 20px 10px 10px;
+    border-radius: 6px;
+    background-color: black;
+}
+.footer2{
+    background-color:  var(--mainColor);
+    padding: 15px;    
+}
+/* end footer */
+/* search erroe page */
+
+.searchError .head{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+
+.searchError .parag{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color:  var(--residentialColor);
+}
+.searchError .butnError{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color:  var(--whiteColor);
+    text-decoration: none;
+    background:  var(--blueColor);
+    border-radius: 4px;
+    padding: 10px 30px;
+}
+.emptyCart{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--mainColor);
+}
+
+
+/*end search erroe page */
+
+/* fond product page */
+
+.text{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color:  var(--residentialColor);
+}
+.text1{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+
+.heigh-sid{
+    height:fit-content;
+}
+.befo.heigh-sid{
+    min-height: 700px;
+    height:fit-content;
+}
+@media (max-width: 575.98px) {
+    .text{
+        font-size: 12px;
+
+    }
+    .heigh-sid{
+        height:100%;
+    }
+    .befo.heigh-sid{
+        height:100%;
+    }
+}
+.tabelCel th,.tabelCel td{
+    min-width: 100px;
+}
+.textHeaderSid{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+/* start range */
+.wrapper{
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 5px;
+    /* box-shadow: 0 12px 35px rgba(0,0,0,0.1); */
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+-webkit-appearance: none;
+}
+.sliderAlid{
+    height: 5px;
+    position: relative;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.range-input{
+    position: relative;
+}
+.range-input input{
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: -5px;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance:none;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background:var(--blueColor);
+    pointer-events: auto;
+    -webkit-appearance: none;
+    /* box-shadow: 0 0 6px rgba(0,0,0,0.05); */
+}
+input[type="range"]::-moz-range-thumb{
+    height: 17px;
+    width: 17px;
+    border: none;
+    border-radius: 50%;
+    background:var(--blueColor);
+    pointer-events: auto;
+    -moz-appearance: none;
+    /* box-shadow: 0 0 6px rgba(0,0,0,0.05); */
+}
+
+/*  */
+.sliderAlidt{
+    height: 5px;
+    position: relative;
+    background: #ddd;
+    border-radius: 5px;
+}
+.range-inputt{
+    position: relative;
+  }
+  .range-inputt input{
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: -5px;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance:none;
+  }
+/* end range */
+.fondProduct .contant{
+    height: 120px;
+}
+
+.contant::-webkit-scrollbar {
+    width: 40px;  
+}
+  /* Track */
+  .contant::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  /* Handle */
+  .contant::-webkit-scrollbar-thumb {
+    background: var(--someBgColor); 
+    border-radius: 8px;
+  }
+  /* Handle on hover */
+  .contant::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+  }
+  @media (max-width: 575.98px) {
+}
+.contant::-webkit-scrollbar {
+    width: 6px;  
+}
+  /* Track */
+  .contant::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  /* Handle var(--someBgColor)*/
+  .contant::-webkit-scrollbar-thumb {
+    background:#888 ; 
+    border-radius: 8px;
+  }
+  /* Handle on hover */
+  .contant::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+ }
+ .fondProduct .inputBorder{
+    border: 1px solid var(--borderColor);
+    border-radius: 4px; 
+}
+.fondProduct .SidButn{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* text-align: center; */
+    text-transform: capitalize;
+    color:  var(--blueColor);
+    border: none;
+    background-color:  var(--whiteColor);
+}
+.fondProduct .border1{
+    border-bottom: 4px solid  var(--blueColor);
+}
+.fondProduct .cercil{
+    border: 1px solid  var(--blueColor);
+    background-color:  var(--blueColor);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -11px;
+}
+
+.aaa:focus {
+    border-color:transparent!important;
+    box-shadow:0 0 0 0.25rem transparent!important;
+}
+
+ .dropdownBtn{
+    background:  var(--secanderColor);
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid  var(--secanderColor);
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* text-align: center; */
+    text-transform: capitalize;
+    color:  var(--whiteColor);
+    padding: 10px 40px;
+}
+.fondProduct .alfars{
+    background-color:  var(--mainColor);
+    border-radius: 4px;
+    width: 130px;
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color:  var(--whiteColor);
+}
+.alfarsHead{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.imgDimensionsContener{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgDimensionsContener img{
+    /* width: 100%; */
+    max-width: 100%;
+    height: 100%;
+
+    /* max-height: 160px; */
+}
+.imgAllsize{
+    width: 100%;
+    height: 100%;
+}
+.imgDimensionsContener .slide-icon{
+    background: var(--secanderColor);
+    border-radius: 40px;
+    padding: 6px;
+    transition: all 1s ease;
+}
+.imgDimensionsContener .slide-icon:hover{
+    background-color: var(--blueColor);   
+}
+.imgDimensionsContener:hover .slide-contanier{
+    display: block;
+}
+.container-More{
+    border: 1px solid  var(--blueColor);
+    border-radius: 4px;
+    width: max-content;
+    margin: auto;
+    padding: 10px 60px;
+}
+.more{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color:  var(--blueColor);
+}
+
+.moreHov:hover{
+    background-color: var(--whiteColor);
+}
+.ll.act{
+    background-color: #01529A;
+    color: white;
+}
+.llSize.actt{
+    background-color: #01529A;
+    color: white;
+}
+.has:hover img{
+    transform: scale(1.2);
+}
+/*end fond product page */
+
+/* fond product page 2 */
+/* the classes used from the fond product page and some from index model i make groups*/
+
+/* end fond product page 2 */
+
+
+/* section page */
+.sectionTitil{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+
+/* product pages */
+.productPagesTabs{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color:  var(--residentialColor);
+}
+@media (max-width: 575.98px) {
+    .productPagesTabs{
+        font-size: 14px;
+    
+    }
+}
+.save .nav .nav-item .active{
+    background-color: transparent;
+    color:  var(--mainColor);
+}
+.save .nav .nav-item .nav-link:hover{
+    color:  var(--mainColor);
+}
+.productPagesTabs-Content{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color:  var(--residentialColor);
+}
+.productPagesTabs3para{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+.productPagesTabs3para2{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color:  var(--residentialColor);
+}
+
+.productQuantitiesOffers{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: var(--mainColor);
+}
+.productPagesTabs3Img{
+    background-color:  var(--whiteColor);
+    border-radius: 50%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.productPagesTabs3Save{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+.productPagesTabs3Save:hover{
+    color:  var(--mainColor);
+
+}
+.imgSm{
+    width: 23px;
+}
+.imgSm22{
+    width: 60px;
+    height: 35px;
+}
+.chang-color span{
+    color: #01529A;
+}
+.chang-color img{
+    filter: invert(24%) sepia(33%) saturate(3340%) hue-rotate(187deg) brightness(96%) contrast(105%);
+}
+.placeholder22{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color:  var(--secanderColor);
+}
+@media (max-width: 575.98px) {
+    .productPagesTabs3Save{
+        font-size: 10px;
+       
+    }
+    .placeholder22{
+        font-size: 10px;
+    }
+}
+.headTitil{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    color:  var(--residentialColor);
+}
+
+.inp{
+    min-width: 40px;
+    max-width: fit-content;
+    height: 40px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.inp{
+    border: 1px solid #d6d4d4;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color:  var(--secanderColor);
+}
+.inpRad:checked + label{
+    background-color: var(--blueColor);
+    color: #FFFFFF;
+}
+
+.productSize .inpRad:enabled +label:hover{
+    background-color:  var(--blueColor);
+    color:  var(--whiteColor);
+}
+.finishedColor{
+    border: 1px solid #d6d4d4!important;
+    opacity: .5;
+
+    background: linear-gradient(to top left, transparent calc(50% - 0.031rem), black, transparent calc(50% + 0.031rem));
+}
+
+.offers{
+    background: rgba(1, 82, 154, 0.05);
+    border-radius: 4px;
+}
+.over.over1{
+    height: 60px;
+    overflow: hidden;
+}
+.over.active1{
+    height: auto;
+}
+.butn-desapled{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color:  var(--whiteColor);
+    background: var(--borderColor);
+    border: 1px solid var(--borderColor);
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+}
+
+.Dnone{
+    display: none;
+}
+
+/* end product pages */
+
+/* sign in pages */
+
+.signOptional{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    text-transform: capitalize;
+    color:  var(--secanderColor);
+
+}
+.signInWithFace{
+    background: #3C599A;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.signInWithFace:hover,.signInWithFace:hover button{
+    background: #335bb2;
+}
+.signInWithFaceBtn{
+    border: none;
+    background: #3C599A;
+    color:  var(--whiteColor);
+
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.signInWithGoogle{
+    background: #518DF9;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.signInWithGoogle:hover,.signInWithGoogle:hover button{
+    background: #3b7efb;
+}
+.signInWithGoogleBtn{
+    border: none;
+    color:  var(--whiteColor);
+    background: #518DF9;
+
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.sign-border{
+    border: 1px solid var(--borderColor);
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.activeColor{
+    color:  var(--blueColor);
+}
+.accessCodeBtn{
+    border: none;
+    background-color:  #f4f4fd;
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: var(--someBgColor);
+}
+.forgetPasswordCode{
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: 1px solid #d6d4d4;
+    border-radius: 4px;
+    text-align: center;
+    background-color:  #f4f4fd;
+
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color:  var(--secanderColor);
+}
+
+.a-accountPhone{
+    color:  var(--blueColor);
+    text-decoration: none;
+}
+/* end sign in pages */
+
+/* complete request page */
+.imgCompleteRequestCont{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgCompleteRequestCont img{
+    max-width: 100%;
+    max-height: 100px;
+}
+.confirmationPrice{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+.confirmationPriceDital{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    color:  var(--mainColor);
+}
+
+.confirmationPriceDitalCol{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    
+}
+.confirmationInput{
+    outline: none;
+    border: 1px solid var(--whiteHafeColor);
+    border-radius: 3px;
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: capitalize;
+    color:  var(--residentialColor);
+}
+.inputBorderNON{
+    border: none;
+    outline: none;
+}
+.inputBorderCont{
+    border: 1px solid var(--borderColor);
+    border-radius: 6px;
+}
+
+.requestBtm{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color:  var(--whiteColor);
+    text-decoration: none;
+    background:  var(--blueColor);
+    border: 1px solid  var(--blueColor);
+    border-radius: 4px;
+}
+.requestBtm:hover{
+    color:  var(--blueColor);
+    background:  var(--whiteColor);
+    border: 1px solid  var(--blueColor);
+}
+.requestBtm1{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    color:  var(--whiteColor);
+    text-decoration: none;
+    background:  var(--blueColor);
+    border: 1px solid  var(--blueColor);
+    border-radius: 4px;
+}
+.requestBtm1:hover{
+    color:  var(--blueColor);
+    background:  var(--whiteColor);
+    border: 1px solid  var(--blueColor);
+}
+
+@media (max-width: 575.98px) {
+    .requestBtm{
+        font-size: 14px;
+    }
+    .requestBtm1{
+        font-size: 12px;
+    }
+    .res tr,th{
+        font-size: 10px!important;
+    }
+}
+.acountHov:hover{
+    background-color: var(--blueColor);
+}
+.acountHov:hover a{
+    color: #FFF!important;
+}
+.acountHov:hover img{
+    filter: invert(100%) sepia(8%) saturate(0%) hue-rotate(316deg) brightness(107%) contrast(103%); 
+}
+/* end complete request page */
+
+/* Terms and Conditions pages */
+.conditions .imgDimensionsContener{
+    height: 150px;
+}
+.conditions .imgDimensionsContener img{
+    height: 100px;
+}
+.conditions .text{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color:  var(--residentialColor);
+}
+ .number{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color:  var(--mainColor);
+}
+/* end Terms and Conditions pages */
+
+/* start my acount  folder */
+.arithmeticArithText{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color:  var(--residentialColor);
+}
+.arithmeticArithLinks{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:  var(--residentialColor);
+}
+.arithmeticArithParaSli{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:  var(--residentialColor);
+}
+.arithmeticSlidImg{
+    width: 20px;
+}
+
+.arithmeticIcon{
+    width: 30px;
+}
+
+/* addresses */
+.edit{
+    border:1px solid  var(--blueColor);
+    border-radius: 3px;
+}
+.edit .text{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color:  var(--blueColor);
+    text-decoration: none;
+}
+.delete{
+    border: 1px solid  #DE2929;
+    border-radius: 3px;
+}
+
+.delete .text,.shoppingCardDelete{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #DE2929;
+    text-decoration: none;
+}
+.addressesText{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:  var(--whiteColor);
+}
+.addressesText:hover{
+    color:  var(--whiteColor);
+}
+.addressesBtn{
+    background:  var(--blueColor);
+    border-radius: 4px;
+    padding: 8px 40px;
+}
+@media (max-width: 575.98px) {
+    .addressesBtn{
+        background:  var(--blueColor);
+        border-radius: 4px;
+        padding: 8px 30px;
+    }
+    .arithmeticSlidImg{
+        width: 12px;
+    }
+}
+
+.modelClose{
+    background-color:  var(--whiteColor);
+    color: var(--blueColor);
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: 1px solid  var(--blueColor);
+    border-radius: 4px;
+    padding: 10px 0px;
+}
+.modelClose:hover{
+    color:  var(--whiteColor);
+    background:  var(--blueColor);
+    border: 1px solid  var(--blueColor);
+}
+
+/* shopping card page*/
+.shoppingSidTitel{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color:  var(--residentialColor);
+}
+.fexWidth{
+    width: 160px;
+}
+.shoppingSidNum{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color:  var(--blueColor);
+}
+.shoppingCardImg{
+    height: 100px;
+    min-width: 100px;
+}
+.shoppingCardImgSm{
+    height: 100px;
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+@media (max-width: 575.98px) {
+    .shoppingCardImg{
+        height: 300px;
+        width: 100%;
+      /* grid-template-areas: 1fr; */
+
+    }
+    .hoppingCardSmCen{
+        width: 100%;
+        text-align: center;
+        /* justify-content: center; */
+    }
+    .shoppingCardSm{
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .flexWrap{
+        flex-wrap: wrap;
+    }
+}
+
+.shoppingCardPlus{
+    background:  var(--blueColor);
+    border-radius: 4px;
+    border: 1px solid  var(--blueColor);
+}
+.act .nav-item  .active{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color:  var(--blueColor);
+    background-color: #f4f4fd;
+    border-bottom: 2px solid  var(--blueColor);
+    border-radius: 0px;
+}
+.act .nav-item  .nav-link:hover{
+    color:   var(--blueColor);
+}
+
+/* orders page */
+.orderModilBtnCont{
+    background:  var(--blueColor);
+    border-radius: 4px;
+    padding: 8px 15px;
+}
+.orderModilBtnCont:hover{
+    background-color: #335bb2;
+}
+.orderModilBtn{
+    background:  var(--blueColor);
+    border: 1px solid  var(--blueColor);
+}
+@media (max-width: 575.98px) {
+    .orderModilBtnCont{
+        padding: 8px 10px;
+    }
+}
+
+.modelImg{
+    width: 60px;
+    height: 60px;
+}
+.offerCont{
+    background: #1DB02B;
+    border-radius: 10px;
+    padding: 4px 0px;
+}
+.offerContText{
+    font-family: 'NotoKufiArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color:  var(--whiteColor);
+}
+.offerContImg{
+    background-color: #34b840;
+    border-radius: 50%;
+    padding: 10px;
+}
+@media (max-width: 575.98px) {
+    .offerContText{
+        font-size: 12px;
+    }
+}
+/* end my acount folder */
+
+/* sliders size */
+.size{
+    background-size: 400px 98%!important;
+}
+
+
+#fixed-box{
+    position: fixed;
+    background-color:white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 999999999999!important;
+}
+
+
+#small-box{
+    width: 40%;
+    height: 100%;
+    background-image: url('../image/fond product/img1.webp');
+    background-size: 100% 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* visibility: visible; */
+    z-index: 99999999!important;
+
+}
+
+#close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+}
+#fixed-box i{
+    cursor: pointer;
+    color: var(--blueColor);
+    font-size: 30px;
+}
+@media (max-width: 575.98px) {
+    #small-box{
+        width: 80%;
+        height: 80%;
+    
+    }
+    #fixed-box i{
+        cursor: pointer;
+        color: var(--blueColor);
+        font-size: 20px;
+    }
+}
+#left-btn{
+    position: absolute;
+    left: 5px;
+}
+#right-btn{
+    position: absolute;
+    right: 5px;
+}
+.splide__arrow {
+z-index: 0!important;
+}
+.whats.fotter-socilIcon{
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: var(--blueColor);   
+}
+
+.whats .fotter-socilIconImg{
+    width: 50px;
+    padding: 10px;
+}
